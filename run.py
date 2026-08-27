@@ -11,3 +11,6 @@ from e2ee_messaging_api import create_app
 app = create_app()
 
 print("Goated")
+
+if __name__ == '__main__':
+    app.run(debug=True)
