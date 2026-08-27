@@ -3,6 +3,7 @@ from flask import Flask
 #import routes
 from api.routes.status import status
 
+
 def create_app():
     app = Flask(__name__)
 
