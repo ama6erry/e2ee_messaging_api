@@ -3,8 +3,7 @@ def test_status(client):
 
     assert response.status_code == 200
     assert response.json == {
-        "status": "ok",
-        "code": 200
+        "status": "ok"
     }
 
 
@@ -14,6 +13,5 @@ def test_status_with_name(client):
     assert response.status_code == 200
     assert response.json == {
         "status": "ok",
-        "code": 200,
         "name": "Name"
     }
